@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Card, Button, Container, Table, Navbar, Nav, NavDropdown } from "react-bootstrap";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { Container } from "react-bootstrap";
+import { BrowserRouter } from "react-router-dom";
 import Menu from "./components/Menu";
 import Rotas from "./Rotas";
 
