@@ -1,8 +1,9 @@
 import React from 'react'
-import { Route, Routes } from 'react-router'
+import { Route, Routes } from 'react-router-dom'
 import HelloWorld from './components/HelloWorld'
 import Arrays from './pages/Arrays'
 import Estados from './pages/Estados'
+import FilmesDetalhes from './pages/filmes/FilmesDetalhes'
 import FilmesPopulares from './pages/filmes/FilmesPopulares'
 import Objetos from './pages/Objetos'
 import Pagina1 from './pages/Pagina1'
@@ -19,7 +20,8 @@ const Rotas = () => {
             <Route exact path="/objetos" element={<Objetos />} />
             <Route exact path="/estados" element={<Estados />} />
             <Route exact path="/filmes/populares" element={<FilmesPopulares />} />
-
+            <Route exact path="/filmes/:id" element={<FilmesDetalhes />} />
+            
           </Routes>
         </div>
     )
