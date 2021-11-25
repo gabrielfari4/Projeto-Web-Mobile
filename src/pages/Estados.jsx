@@ -18,7 +18,7 @@ const Estados = () => {
     function subtrair(){
           //   console.log('Contador: ' + contador--)
           
-          setContador(contador - 2)
+          setContador(contador - 1)
 
     }
 
