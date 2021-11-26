@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import HelloWorld from './components/HelloWorld'
 import Arrays from './pages/Arrays'
 import Estados from './pages/Estados'
+import AtoresDetalhes from './pages/atores/AtoresDetalhes'
 import FilmesDetalhes from './pages/filmes/FilmesDetalhes'
 import FilmesPopulares from './pages/filmes/FilmesPopulares'
 import Objetos from './pages/Objetos'
@@ -21,6 +22,8 @@ const Rotas = () => {
             <Route exact path="/estados" element={<Estados />} />
             <Route exact path="/filmes/populares" element={<FilmesPopulares />} />
             <Route exact path="/filmes/:id" element={<FilmesDetalhes />} />
+            <Route exact path="/atores/:id" element={<AtoresDetalhes />} />
+
             
           </Routes>
         </div>
